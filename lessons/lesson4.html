@@ -1,0 +1,379 @@
+
+
+
+<!-- Task 4a-e -->
+<style>
+	/* Styles for 4a-e */
+	.uber{
+		background-color: black;
+		color: white;
+        padding: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: none;
+		cursor: pointer;
+		border-radius: 1px;
+		margin-left: 10px;
+        vertical-align: top;
+        transition: opacity 0.15s;
+	}
+
+    .uber:hover{
+        opacity: 0.8;
+    }
+
+	.amazon{
+		background-color: rgba(255, 216, 20);
+		color: black;
+		padding: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
+		border: none;
+		border-radius: 20px;	
+		margin-left: 10px;	
+		cursor: pointer;
+		font-size: 14px;
+        vertical-align: top;
+        transition: background-color 0.15s;
+	}
+
+    .amazon:hover{
+        background-color: rgb(254, 204, 24);
+    }
+
+	.github{
+		margin-left: 10px;	
+		background-color: rgba(46, 164, 79);
+		color: white;
+		padding: 9px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 4px;
+		border: none;
+		font-weight: bold;
+		font-size: 13px;
+        vertical-align: top;
+		cursor: pointer;
+        transition: box-shadow 0.15s;
+	}
+
+    .github:hover{
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.142);
+    }
+
+	.bootstrapA{
+		color: white;
+		background-color: rgb(121, 82, 179);
+		font-weight: bold;
+		padding: 10px;
+		padding-left: 17px;
+		padding-right: 17px;
+		border-radius: 2px;
+		border: none;
+        vertical-align: top;
+		cursor: pointer;
+		margin-left: 10px;
+        transition: background-color 0.15s;
+	}
+
+    .bootstrapA:hover{
+        background-color: rgb(95, 66, 138);
+    }
+
+	.bootstrapB{
+		color: rgb(121, 82, 179);
+		background-color: white;
+		border-radius: 2px;
+		font-weight: bold;
+		padding: 8px;
+		padding-left: 17px;
+		padding-right: 17px;
+        border: solid;
+		border-color: rgb(121, 82, 179);
+		border-width: 1.5px;
+		cursor: pointer;
+        vertical-align: top;
+		margin-left: 10px;
+        transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+	}
+
+    .bootstrapB:hover{
+        background-color: gray;
+        color: white;
+        border-color: gray;
+    }
+
+	.linkdA{
+		color: white;
+		background-color: rgb(10, 102, 194);
+		font-weight: bold;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-radius: 20px;
+		border: none;
+		cursor: pointer;
+		margin-left: 10px;
+        vertical-align: top;
+        transition: background-color 0.15s;
+	}
+
+    .linkdA:hover{
+        background-color: rgb(13, 79, 145);
+    }
+
+	.linkdB{
+		color: rgb(10, 102, 194);
+		background-color: white;
+		padding: 9px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-weight: bold;
+		border-radius: 15px;
+        border: solid;
+		border-color: rgb(10, 102, 194);
+		border-width: 1px;
+		cursor: pointer;
+        vertical-align: top;
+		margin-left: 10px;
+        transition: background-color 0.15s, border-width 0.15s, padding 0.15s, padding-left 0.15s, padding-right 0.15s;
+	}
+
+    .linkdB:hover{
+        border-width: 1.5px;
+        background-color: rgb(215, 230, 251);
+		padding: 8.5px;
+		padding-left: 14.5px;
+		padding-right: 14.5px;
+    }
+
+	/* Styles for 4f  */
+
+	.buttonA{
+		background-color: rgb(255,216,20);
+		font-size: 20px;
+		margin: 5px;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+        vertical-align: top;
+        transition: background-color 0.15scolor 0.15s, color 0.15s;
+	}
+
+    .buttonA:hover{
+        background-color: rgb(234, 199, 24);
+    }
+
+    .buttonA:active{
+        color: rgba(0,0,0, 0.59);
+        background-color: rgba(234, 199, 24, 0.59);
+    }
+
+	.buttonB{
+		background-color: rgb(255, 138, 28);
+		font-size: 20px;
+		margin: 5px;
+		border: none;
+		border-radius: 20px;
+		cursor: pointer;
+        transition: background-color 0.15s , color 0.15s;
+        vertical-align: top;
+	}
+
+    .buttonB:hover{
+        background-color: rgb(234, 127, 28);
+    }
+
+    .buttonB:active{
+        color: rgba(0,0,0, 0.59);
+        background-color: rgba(234, 127, 28, 0.59);
+    }
+
+	.textA{
+		font-size: 20px;
+		color: rgb(0,113,133);
+        transition: color 0.15s;
+	}
+
+    .textA:hover{
+        color: brown;
+    }
+
+	.textB{
+		font-size: 20px;
+		color: rgb(0,118,0);
+		font-weight: bold;
+	}
+
+	.textC{
+		font-size: 20px;
+	}
+
+	.subscribe{
+		padding: 10px;
+		border: none;
+		background-color: rgb(200, 0, 0);;
+		color: white;
+		border-radius: 2px;
+		transition: opacity 0.15s;
+	}
+
+	.subscribe:hover{
+		opacity: 0.8;
+	}
+
+	.join{
+		background-color: white;
+		color: rgb(41, 118, 211);
+		border-color: rgb(41, 118, 211);
+		padding: 9px;
+		transition: color 0.15s, background-color 0.15s;
+		border: solid;
+		border-width: 1px;
+		margin-left: 8px;
+	}
+	
+	.join:hover{
+		color: white;
+		background-color: rgb(41, 118, 211);
+	}
+
+	.tweet{
+		background-color: rgb(2, 158, 255);
+		color: white;
+		padding: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-weight: bold;
+		border: none;
+		border-radius: 17px;
+		margin-left: 8px;
+		transition: box-shadow 0.15s;
+	}
+
+	.tweet:hover{
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.142);
+	}
+
+	.pagination{
+		padding: 4px;
+	}
+
+	.paginationA{
+		padding: 6px;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+
+	.stretch{
+		background-color: green;
+		border: none;
+		color: white;
+		padding: 5px;
+		padding-right: 15px;
+		padding-left: 15px;
+		transition: padding 0.15s;
+	}
+
+	.stretch:hover{
+		padding: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.shadow{
+		background-color: green;
+		border: none;
+		color: white;
+		padding: 5px;
+		padding-right: 15px;
+		padding-left: 15px;
+		box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.268);
+		transition: box-shadow 0.15s;
+	}	
+
+	.shadow:active{
+		box-shadow: none;
+	}
+
+	.taskK{
+		background-color: green;
+		border: none;
+		color: white;
+		padding: 5px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-left: 4px;
+		margin-right: 4px;
+		transition: margin 0.15s, padding 0.15s;
+	}
+
+	.taskK:hover{
+		padding-left: 19px;
+		padding-right: 19px;
+		margin-left: 0px;
+		margin-right: 0px;
+		
+	}
+
+	.text{
+		margin-right: 10px;
+	}
+</style>
+<h3>Task 4a-e</h3>
+<button class="uber">
+	Request now
+</button>
+<button class="amazon">
+	Add to Cart
+</button>
+<button class="github">
+	Sign up
+</button>
+<p></p>
+<button class="bootstrapA">
+	Get started
+</button>
+<button class="bootstrapB">
+	Download
+</button>
+<p></p>
+<button class="linkdA">
+	Apply on company website
+</button>
+<button class="linkdB">
+	Save
+</button>
+
+<!-- Task 4f-g -->
+<h3>Task 4f-g</h3>
+
+<button class="subscribe">SUBSCRIBE</button>
+<button class="join">JOIN</button>
+<button class="tweet">Tweet</button>
+
+<!-- Task 4h -->
+<h3>Task 4h</h3>
+ <button class="paginationA">Back</button>
+ <a href="lesson1.html" class="pagination">1</a>
+ <a href="lesson1.html" class="pagination">2</a>
+ <a href="lesson1.html" class="pagination">3</a>
+ <a href="lesson1.html" class="pagination">4</a>
+ <a href="lesson1.html" class="pagination">5</a>
+ <button class="paginationA">Next</button>
+
+ <!-- Task 4i -->
+ <h3>Task 4i</h3>
+<button class="stretch">Stretch</button>
+
+<!-- Task 4j -->
+<h3>Task 4j</h3>
+<button class="shadow">Shadow</button>
+
+<!-- Task 4k -->
+<h3>Task 4k</h3>
+<p class="text"> This is fine
+<button class="taskK">One</button>
+<button class="taskK">Two</button>
+<button class="taskK">Three</button>
+</p>
