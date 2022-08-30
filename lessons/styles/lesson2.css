@@ -1,0 +1,123 @@
+/* Styles for 2a-e */
+.uber{
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px;
+    margin-left: 10px;
+}
+
+.amazon{
+    background-color: rgba(255, 216, 20);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 160px;
+    border-radius: 18px;	
+    margin-left: 10px;	
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.github{
+    margin-left: 10px;	
+    background-color: rgba(46, 164, 79);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.bootstrapA{
+    color: white;
+    background-color: rgb(121, 82, 179);
+    font-weight: bold;
+    border-radius: 2px;
+    height: 40px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.bootstrapB{
+    color: rgb(121, 82, 179);
+    background-color: white;
+    border-radius: 2px;
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+    border-color: rgb(121, 82, 179);
+    border-width: 1.5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.linkdA{
+    color: white;
+    background-color: rgb(10, 102, 194);
+    font-weight: bold;
+    border-radius: 15px;
+    height: 30px;
+    width: 220px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.linkdB{
+    color: rgb(10, 102, 194);
+    background-color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 30px;
+    width: 70px;
+    border-color: rgb(10, 102, 194);
+    border-width: 1.5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Styles for 2f  */
+
+.buttonA{
+    background-color: rgb(255,216,20);
+    font-size: 20px;
+    margin: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buttonB{
+    background-color: rgb(255,164,28);
+    font-size: 20px;
+    margin: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.textA{
+    font-size: 20px;
+    color: rgb(0,113,133);
+}
+
+.textB{
+    font-size: 20px;
+    color: rgb(0,118,0);
+    font-weight: bold;
+}
+
+.textC{
+    font-size: 20px;
+}
