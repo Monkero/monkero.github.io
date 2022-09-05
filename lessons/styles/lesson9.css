@@ -1,0 +1,181 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a, .b{
+    display: inline-block;
+    padding: 100px;
+    border: none;
+    margin: 10px;
+}
+
+.a{
+    background-color: red;
+    margin-right: 20px;
+}
+
+.b{
+    background-color: green;
+    border-radius: 100px;
+}
+
+.c1{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(87, 87, 87, 0.34);
+    padding-right: 100px;
+}
+
+.c2{
+    margin-top: 10px;
+}
+
+.d1{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.d2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.d3{
+    color: rgb(144, 144, 144);
+    font-size: 15px;
+    width: 380px;
+}
+
+.g1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    vertical-align: middle;
+    border: none;
+    margin-right: 2px;
+}
+
+.g2{
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+    border: none;
+    border-radius: 100px;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.g3{
+    background-color: rgb(59, 140, 226);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.g3:hover{
+    opacity: 0.9;
+}
+
+.g3:active{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.263);
+}
+
+.e{
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 25px;
+    margin: 5px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.355);
+}
+
+.fg1{
+    margin: 10px;
+    margin-right: 5px;
+    border: none;
+    display: inline-block;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 5px rgba(59, 59, 59, 0.484);
+}
+
+.fgim{
+    object-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.fgname{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fgfr{
+    font-size: 14px;
+    margin-top: 0;
+    color: rgb(118, 118, 118);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.fgbutton{
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(35, 122, 251);
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: opacity 0.15s;
+}
+
+.fgbutton:hover{
+    opacity: 0.9;
+}
+
+.fgbutton:active{
+    opacity: 0.7;
+}
+
+.h{
+    text-align: center;
+}
+
+.ch1{
+    object-position: center;
+    width: 500px;
+}
+
+.ch2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.14);
+    border: none;
+    padding: 12px;
+    padding-left: 20px;
+    width: 900px;
+    font-size: 17px;
+}
