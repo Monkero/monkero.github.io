@@ -1,0 +1,125 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a1{
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 30px;
+}
+
+.a2{
+    background-color: lightblue;
+}
+
+.a3{
+    background-color: lightpink;
+}
+
+.b1{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 30px;
+}
+
+.c1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.d1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+
+
+
+
+.fg1{
+    height: 370px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(59, 59, 59, 0.484);
+    display: grid;
+    grid-template-rows: 250px 120px;
+}
+
+.fgim{
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.fgname{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.fgfr{
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+    margin: 0;
+}
+
+.fgbutton{
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(35, 122, 251);
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: opacity 0.15s;
+    vertical-align: center;
+}
+
+.fgbutton:hover{
+    opacity: 0.9;
+}
+
+.fgbutton:active{
+    opacity: 0.7;
+}
+
+.av{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+.frenava{
+    margin-left: 10px;
+    align-items: center;
+}
+
+.frenname{
+    align-items: center;
+}
+
+
+
+.info-grid{
+    display: grid;
+    grid-template-rows: 25px 45px 60px;
+}
+
+.name{
+    margin-left: 7px;
+    align-items: center;
+}
+
+.friend{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    column-gap: 5px;
+}
+
+

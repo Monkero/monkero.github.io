@@ -1,0 +1,238 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: 9px;
+    margin-top: 0;
+}
+
+.a{
+    height: 80px; 
+    display: block;
+    margin-bottom: 30px;
+}
+
+.a1{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.a11{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.a111{
+    border-radius: 40px;
+    width: 80px;
+    height: 80px; 
+    object-position: center;
+    object-fit: cover;
+}
+
+.a2{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.a21{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.m1{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 220.76px;
+}
+
+.m2{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 200.9px;
+}
+
+.a22{
+    font-size: 19px;
+    color: rgb(157, 157, 157);
+}
+
+.a23{
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+}
+
+.a3{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.a31{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(0, 149, 255);
+    color: white;
+    border-radius: 6px;
+    padding: 12px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: none;
+    transition: opacity 0.12s;
+}
+
+.a31:hover{
+    opacity: 0.9;
+    
+}
+
+.a31:active{
+    opacity: 0.7;
+}
+
+.preview{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.imgpr{
+    width: 250px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.titlechannelstats{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+
+.titl{
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.chan, .stat{
+    font-size: 15px;
+    color: rgb(67, 67, 67);
+}
+
+.video{
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.g1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    vertical-align: middle;
+    border: none;
+    margin-right: 2px;
+}
+
+.g2{
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+    border: none;
+    border-radius: 100px;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.g3{
+    background-color: rgb(59, 140, 226);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.g3:hover{
+    opacity: 0.9;
+}
+
+.g3:active{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.263);
+}
+
+.fg1{
+    margin: 10px;
+    margin-right: 5px;
+    border: none;
+    display: inline-block;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 5px rgba(59, 59, 59, 0.484);
+}
+
+.fgim{
+    object-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.fgname{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fgfr{
+    font-size: 14px;
+    margin-top: 0;
+    color: rgb(118, 118, 118);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.fgbutton{
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(35, 122, 251);
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: opacity 0.15s;
+}
+
+.fgbutton:hover{
+    opacity: 0.9;
+}
+
+.fgbutton:active{
+    opacity: 0.7;
+}
+
+.av{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+
+.frenava{
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.frenname{
+    display: inline-block;
+}
+
+.secondline{
+    display: block;
+}
